@@ -1,0 +1,52 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 70px;
+}
+
+
+
+h2 {
+font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 40px;
+  color: #628CCE;
+  text-align: center;
+}
+
+
+#list-inline {
+    list-style: none;
+    padding-left: 0px; 
+}
+
+#list-inline li {
+    display: inline;
+    padding: 0px; 
+}
+
+a{
+	text-decoration: none;
+}
